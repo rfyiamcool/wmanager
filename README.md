@@ -52,5 +52,9 @@ wm.Stop()
 ### 6. wait for all worker exit
 
 ```golang
-wm.Stop()
+wm.Wait()
+
+or
+
+wm.WaitTimeout(N)
 ```
